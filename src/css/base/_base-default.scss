@@ -1,0 +1,47 @@
+/*
+ * [ 1-base / default ]
+ */
+
+// -----------------------------------------------------------------------------
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: theme('colors.gray.300');
+}
+
+html, body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #FFF;
+  overflow-x: hidden;
+  font-family: theme('fontFamily.sans');
+  color: theme('colors.black');
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a[target="_blank"]:not(.has-icon):not([data-help]):after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin-left: 2px;
+}
+
+@screen -xs {
+    ::placeholder {
+        @apply text-sm;
+    }
+}

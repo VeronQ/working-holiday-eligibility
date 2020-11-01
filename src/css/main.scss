@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@function font($file) {
+    @return url('../fonts/' + $file);
+}
+
+@import 'base/base-normalize';
+@import 'base/base-fonts';
+@import 'base/base-default';
+
+@tailwind components;
+@tailwind utilities;
+
+@import '~leaflet/dist/leaflet.css';
+@import '~leaflet.fullscreen/Control.FullScreen.css';
+
+[data-underline] {
+    @apply border-b border-dashed;
+    border-color: currentColor;
+}
+
+.container {
+    @apply px-4 mx-auto;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+
+    @screen sm {
+        @apply px-8;
+    }
+}

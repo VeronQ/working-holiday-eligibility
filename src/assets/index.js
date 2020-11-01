@@ -1,0 +1,5 @@
+export {default as AssetArrow} from './arrow.svg'
+export {default as AssetBrandLogo} from './brand-logo.png'
+export {default as AssetHero} from './hero.svg'
+export {default as AssetLoader} from './loader.svg'
+export {default as AssetBackPack} from './backpack.svg'

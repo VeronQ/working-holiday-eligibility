@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Working Holiday Eligibility",
+        "shorten_title": "WHV Elibigility",
+        "description": "Check if your area is eligible to apply for a 2nd or 3rd Working Holiday Visa!"
+    },
+    "errors": {
+        "geolocation": {
+            "title": "Geolocation",
+            "subtitle": "Failed atempt",
+            "content": "<b>Oops</b>, your location could not be retrieved!"
+        },
+        "search": {
+            "title": "Search",
+            "subtitle": "Failed atempt",
+            "content": "<b>Oops</b>, no result has been returned!"
+        }
+    },
+    "header": {
+        "social": {
+            "label": "Share on",
+            "title": "@:(header.social.label) {network}"
+        },
+        "lang": {
+            "label": "Language"
+        },
+        "nav": {
+            "source": "Official source"
+        }
+    },
+    "home": {
+        "baseline": {
+            "suptitle": "Is your area eligible for <u>second</u> or <u>third</u> year",
+            "title": "Working Holiday Visa?"
+        },
+        "about": {
+            "p1": "To be eligible to apply for a second or third Working Holiday (subclass 417) visa, you must complet a prescribed minimum period of specified work in an area classified as part of <span data-underline>Regional Australia</span>.",
+            "p2": "<b>New</b>: Bushfire recovery work carried out after 31 July 2019 is now eligible specified work in <span data-underline>Bushfire affected areas</span>.",
+            "caption": "Last update: {date}"
+        },
+        "search": {
+            "label": "Check eligibility!",
+            "gps": "Use my location",
+            "placeholder": "Enter a city or a postal code"
+        },
+        "alert": {
+            "regionalAustralia": "Regional Australia",
+            "bushfireAffected": "Bushfire Affected Areas",
+            "eligible": "Eligible",
+            "ineligible": "Not eligible"
+        }
+    }
+}

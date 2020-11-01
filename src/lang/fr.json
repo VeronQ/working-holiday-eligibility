@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "title": "Working Holiday Eligibility",
+        "shorten_title": "WHV Elibigility",
+        "description": "Vérifie si ta ville est éligible à une demande de 2ème ou 3ème Permis Vacances-Travail !"
+    },
+    "errors": {
+        "geolocation": {
+            "title": "Géolocalisation",
+            "subtitle": "Tentative échouée",
+            "content": "<b>Oups</b>, votre localisation n'a pas pu être récuperée !"
+        },
+        "search": {
+            "title": "Recherche",
+            "subtitle": "Tentative échouée",
+            "content": "<b>Oups</b>, aucun résultat n'a été retourné !"
+        }
+    },
+    "header": {
+        "social": {
+            "label": "Partager sur",
+            "title": "@:(header.social.label) {network}"
+        },
+        "lang": {
+            "label": "Langage"
+        },
+        "nav": {
+            "source": "Source officielle"
+        }
+    },
+    "home": {
+        "baseline": {
+            "suptitle": "Est-ce éligible pour un <u>second</u> ou <u>troisième</u>",
+            "title": "Permis Vacances-Travail ?"
+        },
+        "about": {
+            "p1": "Pour être éligible à une demande de second ou troisième Permis Vacances-Travail (sous-classe 417), vous devez compléter une période minimum prescrite de travail dans une zone classée comme faisant partie de <span data-help>l'Australie Régionale</span>.",
+            "p2": "<b>Nouveau</b>: Les travaux de récupération suites aux feux de brousse effectués après le 31 juillet 2019 sont désormais qualifiés comme éligible dans les <span data-help>Zones touchées</span>.",
+            "caption": "Mise à jour: {date}"
+        },
+        "search": {
+            "label": "Vérifier l'éligibilité !",
+            "gps": "Utiliser ma position",
+            "placeholder": "Entrer une ville ou un code postal"
+        },
+        "alert": {
+            "regionalAustralia": "Australie Régionale",
+            "bushfireAffected": "Zones touchées par les feux",
+            "eligible": "Éligible",
+            "ineligible": "Non éligible"
+        }
+    }
+}
